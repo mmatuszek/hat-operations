@@ -1,0 +1,10 @@
+/.metadata
+
+/manage-user-service/.project
+/manage-user-service/.settings
+
+/write-operation-service/.project
+/write-operation-service/.settings
+
+/read-operation-service/.project
+/read-operation-service/.settings
