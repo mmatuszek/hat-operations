@@ -1,4 +1,6 @@
 /.metadata
+/operations-service/.idea
+/operations-service/*.iml
 
 /manage-user-service/.project
 /manage-user-service/.settings
