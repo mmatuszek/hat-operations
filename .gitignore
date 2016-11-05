@@ -1,4 +1,6 @@
 /.metadata
+/.idea
+
 /operations-service/.idea
 /operations-service/*.iml
 

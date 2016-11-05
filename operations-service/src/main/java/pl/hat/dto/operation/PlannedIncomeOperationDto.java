@@ -1,8 +1,10 @@
-package pl.hat.dto;
+package pl.hat.dto.operation;
 
 import java.math.BigDecimal;
 import java.net.URL;
 import java.time.YearMonth;
+
+import pl.hat.dto.CategoryDto;
 
 public final class PlannedIncomeOperationDto extends PlannedOperationDto {
 

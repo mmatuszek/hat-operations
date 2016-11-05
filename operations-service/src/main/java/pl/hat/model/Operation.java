@@ -1,9 +1,10 @@
 package pl.hat.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public abstract class Operation {
+public abstract class Operation implements Serializable {
 
     private final long id;
     private LocalDate date;
