@@ -1,8 +1,9 @@
+*.iml
+
 /.metadata
 /.idea
 
 /operations-service/.idea
-/operations-service/*.iml
 
 /manage-user-service/.project
 /manage-user-service/.settings
@@ -15,3 +16,4 @@
 
 /hat-sdk-java/.project
 /hat-sdk-java/.settings
+
