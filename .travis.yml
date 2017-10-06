@@ -1,1 +1,6 @@
 language: java
+deploy:
+  provider: openshift
+  user: michal.a.matuszek@gmail.com
+  password: OpenShift@81
+  domain: hat-web-hat.193b.starter-ca-central-1.openshiftapps.com
