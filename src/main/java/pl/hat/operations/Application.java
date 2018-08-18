@@ -1,4 +1,4 @@
-package pl.hat.ui;
+package pl.hat.operations;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
