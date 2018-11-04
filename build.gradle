@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+group 'com.hat'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.6.RELEASE'
+    compile group: 'org.springframework.hateoas', name: 'spring-hateoas', version: '0.25.0.RELEASE'
+
+
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.2-groovy-2.5'
+    testCompile group: 'org.spockframework', name: 'spock-spring', version: '1.2-groovy-2.5'
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.0.6.RELEASE'
+
+    testRuntime group: 'net.bytebuddy', name: 'byte-buddy', version: '1.9.3'
+    testRuntime group: 'org.objenesis', name:'objenesis', version: '2.6'
+}
