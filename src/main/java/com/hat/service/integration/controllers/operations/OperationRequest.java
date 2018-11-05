@@ -1,4 +1,4 @@
-package com.hat.service.integration.controllers;
+package com.hat.service.integration.controllers.operations;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,4 +1,4 @@
-package com.hat.service.integration.controllers;
+package com.hat.service.integration.controllers.operations;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 

@@ -25,3 +25,11 @@ dependencies {
     testRuntime group: 'net.bytebuddy', name: 'byte-buddy', version: '1.9.3'
     testRuntime group: 'org.objenesis', name:'objenesis', version: '2.6'
 }
+
+tasks.withType(Test) {
+    outputs.upToDateWhen { false }
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+

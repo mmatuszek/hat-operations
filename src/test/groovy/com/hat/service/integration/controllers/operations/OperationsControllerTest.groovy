@@ -1,4 +1,4 @@
-package com.hat.service.integration.controllers
+package com.hat.service.integration.controllers.operations
 
 import com.hat.service.domain.operations.AddOperationService
 import com.hat.service.domain.operations.OperationDto
